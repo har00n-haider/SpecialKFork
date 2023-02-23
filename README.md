@@ -537,3 +537,14 @@ MinHook
     LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
     NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## Build notes
+
+### Quickstart
+
+1. Install the [DirectX June 2010 SDK](https://www.microsoft.com/en-gb/download/details.aspx?id=6812) and install in default directory 
+2. Clone [APITrace/dxsdk](https://github.com/apitrace/dxsdk) and include its parent directory in the Special K project
+3. Open in VS (make sure Windows SDK 8.1 and platform tools v141 are installed)
+3. Set the configuration to UnX/x86
+4. Update the paths to make sense (Include directories / OutDir)
+5. Build to output the dll directly in the game folder
