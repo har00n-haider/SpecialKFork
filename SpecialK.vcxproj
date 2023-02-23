@@ -355,7 +355,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnX|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>F:\SteamLibrary\steamapps\common\FINAL FANTASY FFX&amp;FFX-2 HD Remaster</OutDir>
+    <OutDir>D:\SteamLibrary\steamapps\common\FINAL FANTASY FFX&amp;FFX-2 HD Remaster</OutDir>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <TargetName>dxgi</TargetName>
@@ -1080,7 +1080,7 @@ Exit 0</Command>
       <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
       <PreprocessKeepComments>false</PreprocessKeepComments>
       <CreateHotpatchableImage>true</CreateHotpatchableImage>
-      <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Development\Repositories\dxsdk\Include;$(SolutionDir)include</AdditionalIncludeDirectories>
       <FloatingPointModel>Fast</FloatingPointModel>
       <FloatingPointExceptions>false</FloatingPointExceptions>
       <FunctionLevelLinking>false</FunctionLevelLinking>
